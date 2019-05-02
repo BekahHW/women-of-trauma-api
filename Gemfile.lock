@@ -97,6 +97,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -127,6 +128,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rack-cors
   rails (~> 5.0.7, >= 5.0.7.1)
+  rb-readline
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
