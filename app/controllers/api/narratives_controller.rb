@@ -1,6 +1,6 @@
-class Api::Narratives < ApplicationController
+class Api::NarrativesController < ApplicationController
 
   def index
-    render json: narratives.all
+    render json: Narratives.all
   end
 end
