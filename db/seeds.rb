@@ -6,7 +6,6 @@ Disorder.create(name: 'Medical Trauma', description: 'Children may show traumati
 
 Disorder.create(name: 'School and Community Violence', description: 'School and community violence include predatory violence or personal conflicts between people who are not family members (e.g., shootings, rape, robbery).')
 
-
 Disorder.create(name: "War-related Trauma", description: "Refugee and warzone trauma. Terrorism. Combat-related trauma.")
 
 Disorder.create(name: "Sexual Assault", description: "Sexual assault involves any unwanted and involuntary sexual behavior towards a person. The victim is forced or coerced engage in an act against their will in a non-consensual setting. Sexual assault can include rape, groping, forced kissing, and any other sort of harassment or abuse in a sexual context.")
