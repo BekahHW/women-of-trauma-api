@@ -4,6 +4,7 @@ class Api::DisordersController < ApplicationController
     render json: Disorder.all
   end
 
-  # def show
-  #   render json: Disorder.find_by_id
+  def show
+    render json: Disorder.find_by(id: params[:id])
+  end
 end
