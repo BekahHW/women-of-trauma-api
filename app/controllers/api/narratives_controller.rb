@@ -9,7 +9,7 @@ class Api::NarrativesController < ApplicationController
     if narrative.save
       render json: narrative
     else
-      render json: {messages: narrative.errors}, status: 400
+      render json: {message: narrative.errors}, status: 400
     end
   end
 
