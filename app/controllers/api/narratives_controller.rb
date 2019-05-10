@@ -1,5 +1,5 @@
 class Api::NarrativesController < ApplicationController
-  before_action :set_narrative[:update, :show, :destroy] 
+  # before_action :set_narrative[:update, :show, :destroy]
 
   def index
     render json: Narrative.all
@@ -41,6 +41,6 @@ class Api::NarrativesController < ApplicationController
   end
 
    def narrative_params
-     params.require(:narrative).permit(:title, :tagline, :story, :user_id, :trauma_id)
+     params.require(:narrative).permit(:title, :tagline, :story, :disorder_id, disorder_attributes: [:narrative])
    end
 end
