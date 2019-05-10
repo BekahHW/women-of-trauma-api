@@ -1,3 +1,3 @@
 class Disorder < ApplicationRecord
-  has_many: narratives
+  has_many :narratives
 end
