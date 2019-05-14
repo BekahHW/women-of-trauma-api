@@ -1,5 +1,5 @@
 class ChangeColumnName < ActiveRecord::Migration[5.0]
   def change
-    rename_column :narrative, :trauma_id, :trauma
+    rename_column :narratives, :trauma_id, :trauma
   end
 end
