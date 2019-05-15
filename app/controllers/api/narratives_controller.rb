@@ -41,6 +41,6 @@ class Api::NarrativesController < ApplicationController
   end
 
    def narrative_params
-     params.require(:narrative).permit(:title, :tagline, :story, :disorder_id, disorder_attributes: [:narrative])
+     params.require(:narrative).permit(:title, :tagline, :story, :trauma)
    end
 end
