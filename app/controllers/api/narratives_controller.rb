@@ -1,5 +1,5 @@
 class Api::NarrativesController < ApplicationController
-  # before_action :set_narrative[:update, :show, :destroy]
+  # before_action :set_narrative[:show]
 
   def index
     render json: Narrative.all
@@ -15,6 +15,7 @@ class Api::NarrativesController < ApplicationController
   end
 
   def show
+    @narrative = Narrative.find_by(id: params[:id])
     render json: @narrative
   end
 
