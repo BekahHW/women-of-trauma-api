@@ -1,43 +1,15 @@
-# README
+README
+Woman of Trauma
+This application is to help women who have experienced trauma to find their voice, community, and healing.
 
-# GET /api/disorders
-# GET /api/narratives
-# POST /api/narratives
-# PUT /api/narratives/:id
-# DELETE /api/narratives/:id
+Ruby version
+2.3.3
 
-# Narrative Model
+Deployment instructions
+How to run this on your machine:
 
-# Title
-# trauma_id
-# Tagline
-# Story
-# User_id
+clone the repo to your machine cd into the directory run rails s -p 3001 to start the server. Navigate your browser to http://localhost:3001 and navigate the client side repo https://github.com/BekahHW/Women-of-Trauma-client and run npm start to start the server.
 
-# Disorder Model
+#Contributing Bug reports and pull requests are welcome on GitHub at https://github.com/BekahHW/Women-of-Trauma-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
-# Name
-# Description
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#License The gem is available as open source under the terms of the MIT License.
