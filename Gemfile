@@ -22,7 +22,7 @@ gem 'rack-cors'
 gem 'bcrypt', '~> 3.1.7'
 
 
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 
 #Openauth
 gem 'omniauth'
